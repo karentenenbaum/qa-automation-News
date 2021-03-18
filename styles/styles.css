@@ -1,0 +1,111 @@
+body {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 16.5px;
+    background-color: #fafafa;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font: 32px;
+    color:#000000;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+.epigraph {
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    color:#5d5b5a 
+}
+.by-line {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.author-name {
+    color: #d84315;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.time {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.image-footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11.375px;
+    color:#5d5b5a;
+}
+
+.about-author-content {
+    background-color: #ECEDE7;
+}
+
+.author-data {
+    display: flex;
+}
+
+.author-image {
+    margin: 20px;
+}
+
+.author-card {
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.author-identification a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+color: #DA572E;
+}
+
+.author.title {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.author-description {
+    font-size: 14px;
+}
+
+.author-social-network {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: right;
+    margin: 20px;
+    line-height: 12px;
+}
+
+.author-email {
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.author-email a {
+    color: black;
+    text-decoration: none;
+}
+ 
+.author-social-url a {
+    text-decoration: none;
+    color: black
+}
+   
+    
+
+
+
+
+
