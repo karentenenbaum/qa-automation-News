@@ -1,18 +1,36 @@
 body {
-    margin: 0;
     background-color: #fafafa;
     font-family: 'Source Serif Pro', serif;
     font-size: 16.5px;
 }
 h1 {
     font-family: 'Poppins', sans-serif;
-    font: 32px;
+    font-size: 32px;
     color:#000000;
     font-weight: 700;
 }
+
+ul {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+main {
+
+}
+
+.horizontal-margin {
+    margin: 0 15%;
+}
+
 .icons-container {
     display: flex;
     list-style: none;
+    margin-right: 10px;
 }
 .icons {
     display: flex;
@@ -91,9 +109,8 @@ a {
 }
 .primary-menu{
     display: flex;
-    width: auto;
     justify-content: space-between;
-    width: 50%;
+    padding: 10px 0;
 }
 .primary-menu li {
     list-style: none;
@@ -182,18 +199,32 @@ a:hover {
     font-size: 12px;
 }
 .trending-top {
+    padding: 0;
+    margin: 10px 0;
     display:flex;
     font-family: 'Poppins',sans-serif ;
     font-weight: 600;
     font-size: 14px;
     color: #B93611;
 }
+
+.trending-top span {
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
 .trending-top ul {
     display: flex;
     list-style: none;
-    font-size: 12px;
+    font-size: 15px;
     color: black;
-}    
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 100;
+}
+
+.trending-top ul li {
+    margin-right: 10px;
+}
 
 
 
