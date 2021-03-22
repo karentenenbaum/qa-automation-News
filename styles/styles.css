@@ -3,6 +3,7 @@ body {
     font-family: 'Source Serif Pro', serif;
     font-size: 16.5px;
 }
+
 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
@@ -10,9 +11,11 @@ h1 {
     font-weight: 700;
     line-height: 41px;
 }
+
 .horizontal-margin {
     margin: 0 15%;
 }
+
 .subheadline {
     font-family: Poppins, sans-serif;
     font-size: 20px;
@@ -128,7 +131,7 @@ a {
 }
 
 .new-container {
-    padding: 30px 10%;
+    padding: 10px 10%;
 }
 
 .new-container img {
@@ -256,6 +259,7 @@ a:hover {
 .links {
 display: flex;
 justify-content: center;
+margin-top: 10px;
 }
 
 
