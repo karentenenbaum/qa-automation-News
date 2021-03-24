@@ -28,7 +28,9 @@ h1 {
     display: flex;
     list-style: none;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
+
 .icons {
     display: flex;
     align-items: center;
@@ -41,63 +43,81 @@ h1 {
     border-width: 2px;
     border-radius: 50%;
 }
+
 .icons a {
     display: flex;
     color: inherit;
 }
+
 .icons a:hover {
     color: inherit;
 }
+
 .facebook-color {
     color: #3B5998;
 }
+
 .facebook-color:hover {
     background-color: #3B5998;
     color: white;
-}.twitter-color {
+}
+
+.twitter-color {
     color: #00aced; 
 }
+
  .twitter-color:hover{
      background-color: #00aced; 
      color: white;
  }
+
  .reddit-color {
    color: #ff4500;
  }
+
  .reddit-color:hover {
      background-color: #ff4500; 
      color: white;
  }
+
  .printer-color {
      color: rgb(216, 67, 21)
  }
+
  .printer-color:hover {
      background-color: rgb(216, 67, 21);
      color:white;
  }
+
 .line-gross{
     margin: 0;
     border-top: 3px solid black;  
 }
+
 .line-fine {
     margin:0;
     border-top: 1px solid #AAA7A4
 }
+
 a {
     text-decoration: none;
     text-decoration-color: none;
     color: black;
 }
+
 .header-title {
     display: flex;
 }
+
 .header-logo {
     margin: auto 0;
     padding: 10px;
 }
+
 .header-logo img {
     width: 420px;
 }
+
 .header-signup ul {
     border-left: 1px solid #aaa7a4;
     padding: 0px 10px;
@@ -107,11 +127,13 @@ a {
     font-size: 11px;
     color: #1a1a1a;
 }
+
 .primary-menu{
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
 }
+
 .primary-menu li {
     list-style: none;
     font-weight: 600;
@@ -119,11 +141,13 @@ a {
     font-size: 15px;
     color: rgb(26, 26, 26)
 }
+
 .epigraph {
     font-family: Helvetica, sans-serif;
     font-size: 13px;
     color:#5d5b5a;
 }
+
 .figure-image {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -156,54 +180,71 @@ a {
     color: #000000;
     font-weight: 400;
 }
+
 .author-name {
     color: #d84315;
     font-weight: 900;
     text-decoration: none;
 }
+
 .time {
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: 400;
 }
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
 .featured-item a {
     text-decoration: underline dotted;
     color: rgb(255, 87, 34);
 }
+
 .featured-item a:hover{
     text-decoration: underline;
     color: #DA572E;
 }
+
 .image-footer {
     font-family: 'Poppins', sans-serif;
     font-size: 11.375px;
     color:#5d5b5a;
 }
+
 .about-author-content {
     background-color: #ECEDE7;
 }
+
 .author-data {
     display: flex;
 }
+
 .author-image {
     margin: 20px;
 }
+
 .author-card {
     font-family: 'Poppins',sans-serif;
     font-size: 24px;
     font-weight: 600;
 }
+
 a:hover {
     color: #DA572E;
 }
+
 .author.title {
     font-family: 'Poppins',sans-serif;
     font-weight: 300;
     font-size: 24px;
 }
+
 .author-description {
     font-size: 14px;
 }
+
 .author-social-network {
     margin: 20px;
     font-family: Helvetica, sans-serif;
@@ -211,13 +252,16 @@ a:hover {
     text-align: right;
     line-height: 12px;
 }
+
 .author-email {
     margin-bottom: 15px;
     margin-right: 10px;
 }
+
 .author-social-url a:hover {
     color: #D84315;
 }
+
 .author-social-url span a {
     color: #D84315;
 }
